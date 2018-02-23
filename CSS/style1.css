@@ -1,0 +1,39 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+
+and (min-device-width : 320px)
+
+and (max-device-width : 480px) {
+    color=blue;
+ }
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen
+
+and (min-device-width : 768px)
+
+and (max-device-width : 1024px) {
+  color=green;
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen
+
+and (min-width : 1224px) {
+  color=red;
+/* Styles */
+
+}
+
+
+/*Here is our color pallette
+
+Main grey:565757
+Main green:81FF24
+Main Orange/Yellow:FFB715
+Support Green1:6FE815
+support Green2:6FE815
+
+*/
