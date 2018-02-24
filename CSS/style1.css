@@ -4,7 +4,10 @@
 and (min-device-width : 320px)
 
 and (max-device-width : 480px) {
-    color=blue;
+
+  *{
+    background-color: '81FF24';
+  }
  }
 
 /* iPads (portrait and landscape) ----------- */
@@ -14,7 +17,15 @@ and (max-device-width : 480px) {
 and (min-device-width : 768px)
 
 and (max-device-width : 1024px) {
-  color=green;
+
+  *{
+    background-color: 'FFB715';
+  }
+  body{
+    margin: 0;
+    font-family: fantasy;
+    text-align: center;
+  }
 }
 
 /* Desktops and laptops ----------- */
@@ -22,8 +33,15 @@ and (max-device-width : 1024px) {
 @media only screen
 
 and (min-width : 1224px) {
-  color=red;
 /* Styles */
+  *{
+    background-color: 565757;
+  }
+  body{
+    margin: 0;
+    font-family: fantasy;
+    text-align: center;
+  }
 
 }
 
